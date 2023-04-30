@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="headerItems">
+            <div class="logo">
+                <img src="/images/netflix-logo-png-2562.png" class="img-fluid" alt="">
+            </div>
+            <div class="login">
+
+                <div class="dropdown">
+                    <button class="btn text-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <i class="fa-solid fa-globe"></i> English
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">English</a></li>
+                        <li><a class="dropdown-item" href="#">Deutsch</a></li>
+                        <li><a class="dropdown-item" href="#">Turkish</a></li>
+                    </ul>
+                    <button type="button" class="btn text-light">Oturum Aç</button>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="features">
+                <div class="features-text">
+                    <h1>Sınırsız film, dizi ve <br> çok daha fazlası.</h1>
+                    <h3>İstediğiniz yerde izleyin. İstediğiniz zaman iptal edin.</h3>
+                </div>
+                <div class="features-form">
+                    <h3>İzlemeye hazır mısınız? Üyelik oluşturmak veya üyeliğinize erişmek için e‑posta adresinizi
+                        girin.</h3>
+                    <form action="" class="d-flex gap-2">
+                        <input type="email" class="form-control w-25 py-2" name="" id="" placeholder="E-posta adresi">
+                        <button class="btn btn-danger">Başlayın ></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="sectionMain ">
+        <div class="container sectionMain-contents">
+            <div class="section-content sec-tv">
+
+                <div class="section-textContent">
+                    <h2>Televizyonunuzda izleyebilirsiniz.</h2>
+                    <p>Akıllı TV, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray oynatıcılar ve daha fazlasında
+                        seyredin.
+                    </p>
+                </div>
+                <div class="section-imageContent">
+                    <img src="images/nf-tv.png" alt="">
+                </div>
+
+            </div>
+            <div class="section-content sec-alldevices ">
+                <div class="section-textContent">
+                    <h2>İstediğiniz her yerde izleyin.</h2>
+                    <p>Ekstra ücret ödemeden telefonda, tablette, bilgisayarda, televizyonda sınırsız film ve dizi
+                        izleyin.
+                    </p>
+                </div>
+                <div class="section-imageContent">
+                    <img src="images/nf-alldevice.png" alt="">
+                </div>
+            </div>
+            <div class="section-content sec-kids ">
+                <div class="section-textContent">
+                    <h2>Çocuklarınız için profiller oluşturun.</h2>
+                    <p>Üyeliğinize dâhil olan bu ücretsiz deneyim sayesinde çocuklarınız, sadece onlara özel bir alanda
+                        en sevdikleri karakterlerle maceralara atılabilir.
+                    </p>
+                </div>
+                <div class="section-imageContent">
+                    <img src="images/nf-kids.png" alt="">
+                </div>
+            </div>
+            <div class="section-content sec-offline ">
+                <div class="section-textContent">
+                    <h2>Çevrimdışı izlemek için içerikleri indirin.</h2>
+                    <p>En sevdiğiniz içerikleri kolayca kaydedin ve her zaman izleyecek bir şeyleriniz olsun.
+                    </p>
+                </div>
+                <div class="section-imageContent">
+                    <img src="images/nf-offline.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="questions container">
+        <h2 class=" text-white mb-2">Sıkça Sorulan Sorular
+        </h2>
+
+        <div class="accordion accordion-flush " id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button id="acBtn" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Netflix nedir?
+
+                        <i class="bi bi-plus plus"></i>
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>Netflix; internet bağlantılı binlerce cihazda ödüllü diziler, filmler, animeler, belgeseller
+                            ve daha fazlasını içeren geniş bir arşiv sunan bir streaming hizmetidir.</p>
+                        <p>Tek bir reklam olmadan, istediğiniz kadar, istediğiniz zaman izleyebilirsiniz - hepsi aylık
+                            düşük bir ücret karşılığında. Her zaman keşfedilecek yeni bir şeyler var, üstelik her hafta
+                            yeni diziler ve filmler ekleniyor!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button id="acBtn" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Netflix'in maliyeti nedir?
+
+                        <i class="bi bi-plus plus"></i>
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>Netflix'i akıllı telefonunuz, tabletiniz, Akıllı TV'niz, dizüstü bilgisayarınız veya yayın
+                            cihazınızda sabit bir aylık ücretle izleyin. Aylık plan ücretleri 63,99 TL ile 130,99 TL
+                            arasında değişmektedir. Ekstra maliyet yok, sözleşme yok.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button id="acBtn" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Nerede izleyebilirim?
+
+                        <i class="bi bi-plus plus"></i>
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>İstediğiniz yerde, istediğiniz zaman izleyin. Bilgisayarınızda netflix.com adresinden veya
+                            akıllı TV'ler, akıllı telefonlar, tabletler, medya oynatıcılar ve oyun konsolları dahil
+                            Netflix uygulamasını sunan, internet bağlantılı herhangi bir cihazda anında izlemek için
+                            Netflix hesabınızla oturum açın.</p>
+
+                        <br>
+
+
+                        <p>Favori içeriklerinizi iOS, Android veya Windows 10 uygulamasıyla da indirebilirsiniz.
+                            Seyahatteyken ve internet bağlantısı olmadan izlemek için indirilenleri kullanın. Netflix'i
+                            her yere beraberinizde götürün.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button id="acBtn" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        Nasıl iptal ederim?
+
+                        <i class="bi bi-plus plus"></i>
+                    </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>
+                            Netflix esnektir. Sinir bozucu hiçbir sözleşme ve taahhüt yoktur. Hesabınızı çevrimiçi
+                            olarak iki tıklamayla kolayca iptal edebilirsiniz. İptal ücreti yoktur - hesabınızı
+                            istediğiniz zaman başlatın veya durdurun.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button id="acBtn" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                        Netflix'te ne izleyebilirim?
+
+                        <i class="bi bi-plus plus"></i>
+                    </button>
+                </h2>
+                <div id="flush-collapseFive" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>
+                            Netflix, uzun metrajlı filmler, belgeseller, diziler ve programlar, anime, ödüllü Netflix
+                            orijinal içerikleri ve daha fazlasından oluşan kapsamlı bir kütüphaneye sahiptir.
+                            İstediğiniz her zaman, istediğiniz kadar çok şey izleyin.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button id="acBtn" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                        Netflix çocuklar için uygun mudur?
+
+                        <i class="bi bi-plus plus"></i>
+                    </button>
+
+
+                </h2>
+                <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>
+                            Üyeliğinize dâhil olan Netflix Çocuk deneyimi, çocukların ailece izlenebilecek dizi ve
+                            filmleri kendilerine özel bir alanda izlemelerini sağlarken kontrolü ebeveynlere verir.
+                        </p>
+                        <p>
+                            Çocuk profillerinde bulunan PIN korumalı ebeveyn kontrolleri sayesinde, çocukların
+                            izleyebileceği içeriklerin yetişkinlik düzeylerini kısıtlayabilir ve onların görmesini
+                            istemediğiniz belirli içerikleri engelleyebilirsiniz.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p>İzlemeye hazır mısınız? Üyelik oluşturmak veya üyeliğinize erişmek için e‑posta adresinizi girin.</p>
+
+        <div class="features-form">
+            <form action="" class="d-flex gap-2">
+                <input type="email" class="form-control w-25 py-2" name="" id="" placeholder="E-posta adresi">
+                <button class="btn btn-danger">Başlayın ></button>
+            </form>
+        </div>
+    </section>
+
+
+    <div class="container ">
+        <footer>
+            <p>Sorularınız mı var? 0850-390-7444 numaralı telefonu arayın
+            </p>
+
+            <div class="links">
+                <ul>
+                    <li><a href="#">SSS</a></li>
+                    <li><a href="#">Yatırımcı İlişkileri</a></li>
+                    <li><a href="#">Kullanım Koşulları</a></li>
+                    <li><a href="#">Bize Ulaşın</a></li>
+                </ul>
+
+                <ul>
+                    <li><a href="#">Yardım Merkezi</a></li>
+                    <li><a href="#">İş İmkanları</a></li>
+                    <li><a href="#">Gizlilik</a></li>
+                    <li><a href="#">Hız Testi</a></li>
+                </ul>
+
+                <ul>
+                    <li><a href="#">Hesap</a></li>
+                    <li><a href="#">Hediye Kartı Kullan</a></li>
+                    <li><a href="#">Çerez Tercihleri</a></li>
+                    <li><a href="#">Yasal Hükümler</a></li>
+                </ul>
+
+                <ul>
+                    <li><a href="#">Medya Merkezi</a></li>
+                    <li><a href="#">İzleme Yolları</a></li>
+                    <li><a href="#">Kurumsal Bilgiler</a></li>
+                    <li><a href="#">Sadece Netflix'te</a></li>
+                </ul>
+            </div>
+
+            <div class="col-sm-1">
+                <div class="dropdown">
+                    <button class="btn text-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <i class="fa-solid fa-globe"></i> English
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">English</a></li>
+                        <li><a class="dropdown-item" href="#">Deutsch</a></li>
+                        <li><a class="dropdown-item" href="#">Turkish</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <span>Netflix Turkiye</span>
+        </footer>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+
+    <script>
+
+        const plus = document.querySelectorAll('.plus');
+        const btn = document.querySelectorAll('#acBtn');
+
+        let activeButton = null;
+
+        function togglePlus(button) {
+            const plusIcon = button.querySelector('.plus');
+
+            if (button === activeButton) {
+                plusIcon.style.transform = '';
+                activeButton = null;
+            } else {
+                if (activeButton) {
+                    activeButton.querySelector('.plus').style.transform = '';
+                }
+                plusIcon.style.transform = 'translate(0, -50%) rotate(135deg)';
+                activeButton = button;
+            }
+        }
+
+        btn.forEach((button) => {
+            button.addEventListener('click', () => {
+                togglePlus(button);
+            });
+        });
+
+    </script>
+</body>
+
+</html>
